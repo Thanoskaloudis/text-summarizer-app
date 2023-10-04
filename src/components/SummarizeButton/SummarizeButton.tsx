@@ -1,5 +1,6 @@
 import React from 'react';
 import { SummarizeButtonProps } from '../../models/models';
+import './SummarizeButton.scss';
 
 const SummarizeButton: React.FC<SummarizeButtonProps> = ({ onClick, disabled }) => {
   return (

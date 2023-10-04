@@ -1,5 +1,6 @@
 import React from 'react';
 import { SummaryDisplayProps } from '../../models/models';
+import './SummaryDisplay.scss';
 
 const SummaryDisplay: React.FC<SummaryDisplayProps> = ({ summary }) => {
   return (

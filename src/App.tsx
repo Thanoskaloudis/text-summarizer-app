@@ -16,6 +16,7 @@ function App() {
   return (
     <div className="app">
       <header className="app-header">
+        <h3>Text Summarizer</h3>
       </header>
       <main>
         <TextInput value="hello" onChange={onTextChanged}/>
