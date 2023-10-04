@@ -6,3 +6,8 @@ export interface TextInputProps {
 export interface SummaryDisplayProps {
   summary: string;
 }
+
+export interface SummarizeButtonProps {
+  onClick: () => void;
+  disabled: boolean;
+}

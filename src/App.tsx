@@ -1,10 +1,15 @@
 import './App.css';
+import SummarizeButton from './components/SummarizeButton/SummarizeButton';
 import SummaryDisplay from './components/SummaryDisplay/SummaryDisplay';
 import TextInput from './components/TextInput/TextInput';
 
 function App() {
 
   const onTextChanged = ()=> {
+    // TODO
+  }
+
+  const onButtonClicked = ()=> {
     // TODO
   }
 
@@ -15,6 +20,7 @@ function App() {
       <main>
         <TextInput value="hello" onChange={onTextChanged}/>
         <SummaryDisplay summary="test" />
+        <SummarizeButton onClick={onButtonClicked} disabled={false}/>
       </main>
     </div>
   );
