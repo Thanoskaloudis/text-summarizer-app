@@ -1,7 +1,13 @@
-import React from 'react'
+import React from 'react';
+import { SummaryDisplayProps } from '../../models/models';
 
-export const SummaryDisplay = () => {
+const SummaryDisplay: React.FC<SummaryDisplayProps> = ({ summary }) => {
   return (
-    <div>SummaryDisplay</div>
-  )
-}
+    <div className="summary-container">
+      <h2>Summary:</h2>
+      <p>{summary}</p>
+    </div>
+  );
+};
+
+export default SummaryDisplay;

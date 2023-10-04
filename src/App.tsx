@@ -1,4 +1,5 @@
 import './App.css';
+import SummaryDisplay from './components/SummaryDisplay/SummaryDisplay';
 import TextInput from './components/TextInput/TextInput';
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
       <header className="App-header">
       </header>
       <main>
-        <TextInput value="" onChange={onTextChanged}/>
+        <TextInput value="hello" onChange={onTextChanged}/>
+        <SummaryDisplay summary="test" />
       </main>
     </div>
   );
